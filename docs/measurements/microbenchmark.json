@@ -1,0 +1,31 @@
+{
+  "at": "2026-11-11T08:16:02.871Z",
+  "runtime": "v24.16.0",
+  "kind": "Node microbenchmark, not installed browser load impact",
+  "warmCache": {
+    "iterations": 2000,
+    "medianMs": 0.0036999999999949296,
+    "p95Ms": 0.01719999999999544,
+    "p99Ms": 0.04749999999999943,
+    "additionalRequests": 0
+  },
+  "parse100Candidates": {
+    "iterations": 100,
+    "medianMs": 0.37309999999999377,
+    "p95Ms": 0.6483000000000061
+  },
+  "extensionBytes": 30994,
+  "architecture": {
+    "contentScripts": 0,
+    "webRequestHooks": 0,
+    "pollingIntervals": 0,
+    "initialLookupDelayAfterTabCompleteMs": 350,
+    "maxConcurrentUrls": 1,
+    "maxConcurrentSources": 2,
+    "maxPagesPerSource": 2,
+    "sourceDeadlineMs": 6000,
+    "maxResponseBytes": 512000,
+    "cacheEntries": 100,
+    "cacheSerializedBudgetBytes": 1500000
+  }
+}

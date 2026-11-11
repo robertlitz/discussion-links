@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Load fixture</title><style>body{font:14px system-ui;margin:20px}strong{color:#24665a}</style><strong>Representative local reading page</strong><p>This document completes loading before discussion lookups start.</p><script>
+window.addEventListener('load',()=>{const mode=new URLSearchParams(location.search).get('mode');setTimeout(async()=>{
+ let lookupMs=0;let requests=0;const cpu=performance.now();
+ if(mode==='lookup'){const {LookupEngine}=await import('/lookup.js');const e=new LookupEngine({fetcher:async u=>{requests++;return new Response(JSON.stringify(u.includes('algolia')?{hits:[],nbPages:1}:{data:{children:[],after:null}}));}});await e.lookup('https://example.com/article');lookupMs=performance.now()-cpu;}
+ const n=performance.getEntriesByType('navigation')[0];parent.postMessage({type:'sample',mode,loadMs:n.loadEventEnd,domMs:n.domContentLoadedEventEnd,lookupMs,requests,lookupStarted:cpu},location.origin);
+},350);});
+</script></html>

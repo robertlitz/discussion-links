@@ -1,0 +1,27 @@
+✔ production worker: post-load scheduling, badges, cache, navigation, pause, private URLs and tabs (3617.4893ms)
+✔ normalizes common link variants while preserving article identity (2.0799ms)
+✔ private, unsupported and recognized sensitive URLs never become queries (0.933ms)
+✔ only exact linked submissions count; unsafe IDs and duplicates are discarded (0.5946ms)
+✔ query builders restrict search to submissions and URL fields (0.2378ms)
+✔ cache bounded by both entry count and serialized bytes (9.2205ms)
+✔ manifest cannot inject code, intercept traffic or run a persistent background page (6.6936ms)
+✔ one lookup per URL across simultaneous tabs; warm cache makes zero requests (19.9844ms)
+✔ partial results arrive before a slow source and survive failures (20.2354ms)
+✔ rate limits persist across worker restart and Retry-After is honored (2.591ms)
+✔ deadlines stop hanging requests and failures are never successful zero matches (29.3684ms)
+✔ navigation cancellation prevents queued requests and stale notifications (0.2605ms)
+✔ pagination and response sizes have hard ceilings (3.4642ms)
+✔ network options exclude credentials and referrers (0.6515ms)
+✔ queue is bounded under tab switching (10.9248ms)
+✔ brief pacing defers once instead of losing results; storage failures are nonfatal (30.548ms)
+✔ abandoned in-flight requests abort promptly without failure backoff, and the same URL can resume (0.8973ms)
+✔ one tab leaving does not abort a lookup another active subscriber still needs (0.5329ms)
+✔ switching active tabs cancels real worker requests and services the new page (1673.9383ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5884.7086

@@ -1,0 +1,565 @@
+{
+  "at": "2026-11-11T08:02:16.208Z",
+  "kind": "browser page harness, extension not installed",
+  "summary": {
+    "baseline": {
+      "samples": 30,
+      "medianLoadMs": 15.599999904632568,
+      "p95LoadMs": 19.5,
+      "medianDOMMs": 15.099999904632568,
+      "medianLookupMs": 0,
+      "p95LookupMs": 0
+    },
+    "lookup": {
+      "samples": 30,
+      "medianLoadMs": 15.5,
+      "p95LoadMs": 17.200000047683716,
+      "medianDOMMs": 14.900000095367432,
+      "medianLookupMs": 12.599999904632568,
+      "p95LookupMs": 15.099999904632568
+    }
+  },
+  "samples": [
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 58.09999990463257,
+      "domMs": 57.5,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 410.59999990463257
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 19.5,
+      "domMs": 18.700000047683716,
+      "lookupMs": 15.5,
+      "requests": 2,
+      "lookupStarted": 382.2000000476837
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 17,
+      "domMs": 16.40000009536743,
+      "lookupMs": 12.700000047683716,
+      "requests": 2,
+      "lookupStarted": 369.5
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 19.399999856948853,
+      "domMs": 18.799999952316284,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 373.59999990463257
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 15.700000047683716,
+      "domMs": 15.200000047683716,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 366.5
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 14.100000143051147,
+      "domMs": 13.600000143051147,
+      "lookupMs": 13.200000047683716,
+      "requests": 2,
+      "lookupStarted": 368
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 17,
+      "domMs": 16.40000009536743,
+      "lookupMs": 12.299999952316284,
+      "requests": 2,
+      "lookupStarted": 371.7999999523163
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 13.800000190734863,
+      "domMs": 13.200000047683716,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 367.80000019073486
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 18.199999809265137,
+      "domMs": 17.799999952316284,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 373
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 14.5,
+      "domMs": 14.200000047683716,
+      "lookupMs": 11.5,
+      "requests": 2,
+      "lookupStarted": 368.2999999523163
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 15.100000143051147,
+      "domMs": 14.600000143051147,
+      "lookupMs": 12,
+      "requests": 2,
+      "lookupStarted": 373
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 15.300000190734863,
+      "domMs": 14.800000190734863,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 372.90000009536743
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 15.399999856948853,
+      "domMs": 14.899999856948853,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 368.2000000476837
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 16.5,
+      "domMs": 15.899999856948853,
+      "lookupMs": 15.099999904632568,
+      "requests": 2,
+      "lookupStarted": 368.5
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 16.5,
+      "domMs": 15.900000095367432,
+      "lookupMs": 16.200000047683716,
+      "requests": 2,
+      "lookupStarted": 368.40000009536743
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 20.90000009536743,
+      "domMs": 20.100000143051147,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 381.30000019073486
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 19.5,
+      "domMs": 19,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 383.40000009536743
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 17.200000047683716,
+      "domMs": 16.40000009536743,
+      "lookupMs": 13.5,
+      "requests": 2,
+      "lookupStarted": 382.80000019073486
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 15.600000143051147,
+      "domMs": 15.100000143051147,
+      "lookupMs": 11.800000190734863,
+      "requests": 2,
+      "lookupStarted": 368.7999999523163
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 15.100000143051147,
+      "domMs": 14.5,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 374.90000009536743
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 15.100000143051147,
+      "domMs": 14.600000143051147,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 371.7000000476837
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 16.40000009536743,
+      "domMs": 16,
+      "lookupMs": 14.299999952316284,
+      "requests": 2,
+      "lookupStarted": 367.40000009536743
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 15.5,
+      "domMs": 14.900000095367432,
+      "lookupMs": 14.299999952316284,
+      "requests": 2,
+      "lookupStarted": 371.2000000476837
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 15.299999952316284,
+      "domMs": 14.799999952316284,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 371.39999985694885
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 15.399999856948853,
+      "domMs": 14.799999952316284,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 366.09999990463257
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 14.600000143051147,
+      "domMs": 14,
+      "lookupMs": 12.400000095367432,
+      "requests": 2,
+      "lookupStarted": 368.2999999523163
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 15.299999952316284,
+      "domMs": 14.799999952316284,
+      "lookupMs": 14.5,
+      "requests": 2,
+      "lookupStarted": 372
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 18.399999856948853,
+      "domMs": 17.899999856948853,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 370.09999990463257
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 16.90000009536743,
+      "domMs": 16.300000190734863,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 381.90000009536743
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 15.099999904632568,
+      "domMs": 14.599999904632568,
+      "lookupMs": 14,
+      "requests": 2,
+      "lookupStarted": 367.09999990463257
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 16.09999990463257,
+      "domMs": 15.699999809265137,
+      "lookupMs": 11.799999952316284,
+      "requests": 2,
+      "lookupStarted": 369.59999990463257
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 13.200000047683716,
+      "domMs": 12.799999952316284,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 369.09999990463257
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 14.300000190734863,
+      "domMs": 13.900000095367432,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 366.2000000476837
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 14.799999952316284,
+      "domMs": 14.299999952316284,
+      "lookupMs": 12.399999856948853,
+      "requests": 2,
+      "lookupStarted": 379.5
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 15.700000047683716,
+      "domMs": 15.100000143051147,
+      "lookupMs": 11.900000095367432,
+      "requests": 2,
+      "lookupStarted": 370.7000000476837
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 15.5,
+      "domMs": 15,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 370
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 14.100000143051147,
+      "domMs": 13.600000143051147,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 365.2000000476837
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 17.799999952316284,
+      "domMs": 17.299999952316284,
+      "lookupMs": 12.399999856948853,
+      "requests": 2,
+      "lookupStarted": 384
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 14.700000047683716,
+      "domMs": 14.300000190734863,
+      "lookupMs": 12.599999904632568,
+      "requests": 2,
+      "lookupStarted": 368.30000019073486
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 14.5,
+      "domMs": 14,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 370.19999980926514
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 15.900000095367432,
+      "domMs": 15.300000190734863,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 381.30000019073486
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 15.400000095367432,
+      "domMs": 14.900000095367432,
+      "lookupMs": 12.400000095367432,
+      "requests": 2,
+      "lookupStarted": 366.59999990463257
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 15,
+      "domMs": 14.599999904632568,
+      "lookupMs": 11.299999952316284,
+      "requests": 2,
+      "lookupStarted": 372
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 16.199999809265137,
+      "domMs": 15.699999809265137,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 374.19999980926514
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 15.700000047683716,
+      "domMs": 15.099999904632568,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 381.09999990463257
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 17.200000047683716,
+      "domMs": 16.700000047683716,
+      "lookupMs": 13.200000047683716,
+      "requests": 2,
+      "lookupStarted": 382.7000000476837
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 16.5,
+      "domMs": 15.900000095367432,
+      "lookupMs": 13.100000143051147,
+      "requests": 2,
+      "lookupStarted": 371.7999999523163
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 15.900000095367432,
+      "domMs": 15.400000095367432,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 371.10000014305115
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 15.599999904632568,
+      "domMs": 15.099999904632568,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 379.09999990463257
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 15.899999856948853,
+      "domMs": 15.399999856948853,
+      "lookupMs": 12.799999952316284,
+      "requests": 2,
+      "lookupStarted": 371.5
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 14.5,
+      "domMs": 13.899999856948853,
+      "lookupMs": 12.899999856948853,
+      "requests": 2,
+      "lookupStarted": 370
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 14.799999952316284,
+      "domMs": 14.299999952316284,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 369.2999999523163
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 16.40000009536743,
+      "domMs": 15.799999952316284,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 368.2999999523163
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 15.599999904632568,
+      "domMs": 15.099999904632568,
+      "lookupMs": 12.399999856948853,
+      "requests": 2,
+      "lookupStarted": 367.40000009536743
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 14.399999856948853,
+      "domMs": 13.899999856948853,
+      "lookupMs": 12.100000143051147,
+      "requests": 2,
+      "lookupStarted": 372.39999985694885
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 16.90000009536743,
+      "domMs": 16.200000047683716,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 370.90000009536743
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 16.299999952316284,
+      "domMs": 15.899999856948853,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 379.7999999523163
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 12.700000047683716,
+      "domMs": 12.200000047683716,
+      "lookupMs": 13.100000143051147,
+      "requests": 2,
+      "lookupStarted": 367.09999990463257
+    },
+    {
+      "type": "sample",
+      "mode": "lookup",
+      "loadMs": 14.300000190734863,
+      "domMs": 13.900000095367432,
+      "lookupMs": 11.5,
+      "requests": 2,
+      "lookupStarted": 374.7000000476837
+    },
+    {
+      "type": "sample",
+      "mode": "baseline",
+      "loadMs": 14.599999904632568,
+      "domMs": 14.099999904632568,
+      "lookupMs": 0,
+      "requests": 0,
+      "lookupStarted": 373
+    }
+  ],
+  "allLookupsAfterLoad": true
+}

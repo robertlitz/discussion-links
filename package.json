@@ -1,0 +1,15 @@
+{
+  "name": "discussion-links",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A lightweight Chrome extension for finding Reddit and Hacker News discussions linked to the active page.",
+  "type": "module",
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "test": "node --test --test-concurrency=1 test/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "package": "node scripts/package.mjs",
+    "benchmark": "node tools/benchmark.mjs",
+    "preview": "node tools/preview.mjs"
+  }
+}

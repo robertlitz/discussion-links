@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Discussion Links</title><link rel="stylesheet" href="popup.css"><script type="module" src="popup.js"></script></head>
+<body>
+  <header><div class="mark" aria-hidden="true">↗</div><div><h1>Discussion Links</h1><p>The conversation, elsewhere.</p></div><label class="switch" title="Pause automatic lookups"><input id="pause" type="checkbox" aria-label="Pause automatic lookups"><span>Pause</span></label></header>
+  <main>
+    <section class="page"><span class="eyebrow">THIS PAGE</span><p id="page" title=""></p></section>
+    <section class="summary" aria-live="polite"><div><strong id="count">—</strong><span id="headline">Looking for discussions</span></div><button id="refresh" aria-label="Check discussions again" title="Check again (respects cache and source backoff)">↻</button></section>
+    <div class="sources" aria-label="Search sources"><span id="reddit-status">Reddit · waiting</span><span id="hn-status">Hacker News · waiting</span></div>
+    <nav aria-label="Filter discussions"><button class="selected" data-filter="all" aria-pressed="true">All <span id="all-total">0</span></button><button data-filter="reddit" aria-pressed="false">Reddit <span id="reddit-total">0</span></button><button data-filter="hn" aria-pressed="false">Hacker News <span id="hn-total">0</span></button></nav>
+    <p id="notice" role="status"></p><ul id="results" aria-label="Linked discussions"></ul>
+    <div id="empty"><div class="empty-icon" aria-hidden="true">◎</div><h2 id="empty-title">Checking both communities</h2><p id="empty-copy">Results appear here as each search finishes.</p></div>
+    <div id="searches" class="searches" hidden><span>Search directly</span><a id="reddit-search" target="_blank" rel="noopener noreferrer">Reddit ↗</a><a id="hn-search" target="_blank" rel="noopener noreferrer">Hacker News ↗</a></div>
+  </main>
+  <footer><span class="dot" aria-hidden="true"></span><span id="footnote">Runs after your page loads</span><details><summary>Privacy &amp; coverage</summary><p>Automatic checks send the cleaned public page URL to Reddit and HN Algolia. No page content, cookies, analytics, or account is used. IP addresses, local hosts, and recognized secret query parameters are skipped. Pause before visiting sensitive public URLs.</p><p>Finds linked submissions, not comments or text mentions. Fragments and known tracking parameters are ignored; www and HTTP/HTTPS variants are treated alike. Redirect aliases and canonical URLs in page content are not inspected. Each source is capped at 200 candidates; coverage depends on its search index. Results are cached for 5–15 minutes in this browser session.</p></details></footer>
+</body></html>
