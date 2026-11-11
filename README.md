@@ -1,7 +1,7 @@
 <p align="center"><img src="docs/images/banner.svg" alt="Discussion Links: Reddit and Hacker News conversations for the page you are reading" width="1000"></p>
 
 <p align="center">
-  <a href="https://github.com/robertlitz/discussion-links/actions/workflows/ci.yml"><img src="https://github.com/robertlitz/discussion-links/actions/workflows/ci.yml/badge.svg" alt="Source checks"></a>
+  <a href="https://github.com/robertlitz/discussion-links/actions/workflows/ci.yml"><img src="https://github.com/robertlitz/discussion-links/actions/workflows/ci.yml/badge.svg?branch=main" alt="Source checks"></a>
   <img src="https://img.shields.io/badge/Chrome-Manifest_V3-24665a" alt="Chrome Manifest V3">
   <img src="https://img.shields.io/badge/status-prototype-d99b33" alt="Prototype">
 </p>
